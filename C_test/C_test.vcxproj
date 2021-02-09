@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{89418293-95cd-4c61-8fd2-3cc16ecdd1c5}</ProjectGuid>
-    <RootNamespace>C</RootNamespace>
+    <ProjectGuid>{f9348eb7-1111-422a-a96d-febe16ee636e}</ProjectGuid>
+    <RootNamespace>Ctest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,38 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\C_study\array_ptr\ch11.c" />
-    <ClCompile Include="..\src\C_study\array_ptr\ch11_ex.c" />
-    <ClCompile Include="..\src\C_study\array_ptr\ch12.c" />
-    <ClCompile Include="..\src\C_study\array_ptr\ch13.c" />
-    <ClCompile Include="..\src\C_study\array_ptr\ch13_ch_stack.c" />
-    <ClCompile Include="..\src\C_study\array_ptr\ch13_int_stack.c" />
-    <ClCompile Include="..\src\C_study\array_ptr\ch14.c" />
-    <ClCompile Include="..\src\C_study\array_ptr_2\ch16.c" />
-    <ClCompile Include="..\src\C_study\array_ptr_2\ch16_ex(sample).c" />
-    <ClCompile Include="..\src\C_study\array_ptr_2\ch16_ex.c" />
-    <ClCompile Include="..\src\C_study\array_ptr_2\ch17.c" />
-    <ClCompile Include="..\src\C_study\array_ptr_2\ch17_swap.c" />
-    <ClCompile Include="..\src\C_study\array_ptr_2\ch18.c" />
-    <ClCompile Include="..\src\C_study\array_ptr_2\ex.c" />
-    <ClCompile Include="..\src\C_study\basic\ch4.c" />
-    <ClCompile Include="..\src\C_study\basic\ch5,6.c" />
-    <ClCompile Include="..\src\C_study\basic\ch_1~3.c" />
-    <ClCompile Include="..\src\C_study\debug\debugging_study.c" />
-    <ClCompile Include="..\src\C_study\debug\wrong.c" />
-    <ClCompile Include="..\src\C_study\function_ptr\ch19.c" />
-    <ClCompile Include="..\src\C_study\loop_condition\ch7.c" />
-    <ClCompile Include="..\src\C_study\loop_condition\ch8.c" />
-    <ClCompile Include="..\src\C_study\loop_condition\ch9.c" />
-    <ClCompile Include="..\src\C_study\quiz\quiz_part2.c" />
-    <ClCompile Include="..\src\C_study\quiz\q_part1_1.c" />
-    <ClCompile Include="..\src\C_study\quiz\q_part1_2.c" />
-    <ClCompile Include="..\src\C_study\quiz\q_part1_3.c" />
-    <ClCompile Include="..\src\C_study\quiz\q_part1_4.c" />
-    <ClCompile Include="..\src\C_study\struct_ptr\ch20.c" />
-    <ClCompile Include="..\src\C_study\struct_ptr\ch21.c" />
-    <ClCompile Include="..\src\C_study\struct_ptr\ch22.c" />
-    <ClCompile Include="..\src\C_study\struct_ptr\ch23.c" />
+    <ClCompile Include="..\src\C_test\prj_1\prj_1.c" />
+    <ClCompile Include="..\src\C_test\prj_1\prj_1_array_util.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\C_test\prj_1\prj_1_array_util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

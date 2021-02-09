@@ -13,5 +13,127 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\array_ptr">
+      <UniqueIdentifier>{33c89d97-3a72-4d87-82e1-bb6d58da0995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\array_ptr_2">
+      <UniqueIdentifier>{bf17b389-d40f-4a45-8e46-c61e57ddc6e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\basic">
+      <UniqueIdentifier>{4c39d301-d550-484b-800d-56adbde7aa37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\debug">
+      <UniqueIdentifier>{f99e84ac-b791-42ec-98d7-16d9994edeca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\function_ptr">
+      <UniqueIdentifier>{35204ae9-760e-479b-b282-7723fbe95b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\loop_condition">
+      <UniqueIdentifier>{af15eaa3-6553-4643-8bc0-04972a6acf30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\quiz">
+      <UniqueIdentifier>{f6c1a424-878d-4683-8884-e0cac09cd414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\struct_ptr">
+      <UniqueIdentifier>{0af64453-f410-47af-8b4b-6ced140acaef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\C_study\array_ptr\ch11.c">
+      <Filter>소스 파일\array_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr\ch11_ex.c">
+      <Filter>소스 파일\array_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr\ch12.c">
+      <Filter>소스 파일\array_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr\ch13.c">
+      <Filter>소스 파일\array_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr\ch13_ch_stack.c">
+      <Filter>소스 파일\array_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr\ch13_int_stack.c">
+      <Filter>소스 파일\array_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr\ch14.c">
+      <Filter>소스 파일\array_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr_2\ch16.c">
+      <Filter>소스 파일\array_ptr_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr_2\ch16_ex(sample).c">
+      <Filter>소스 파일\array_ptr_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr_2\ch16_ex.c">
+      <Filter>소스 파일\array_ptr_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr_2\ch17.c">
+      <Filter>소스 파일\array_ptr_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr_2\ch17_swap.c">
+      <Filter>소스 파일\array_ptr_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr_2\ch18.c">
+      <Filter>소스 파일\array_ptr_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\array_ptr_2\ex.c">
+      <Filter>소스 파일\array_ptr_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\basic\ch4.c">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\basic\ch5,6.c">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\basic\ch_1~3.c">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\debug\debugging_study.c">
+      <Filter>소스 파일\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\debug\wrong.c">
+      <Filter>소스 파일\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\function_ptr\ch19.c">
+      <Filter>소스 파일\function_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\loop_condition\ch7.c">
+      <Filter>소스 파일\loop_condition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\loop_condition\ch8.c">
+      <Filter>소스 파일\loop_condition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\loop_condition\ch9.c">
+      <Filter>소스 파일\loop_condition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\quiz\quiz_part2.c">
+      <Filter>소스 파일\quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\quiz\q_part1_1.c">
+      <Filter>소스 파일\quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\quiz\q_part1_2.c">
+      <Filter>소스 파일\quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\quiz\q_part1_3.c">
+      <Filter>소스 파일\quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\quiz\q_part1_4.c">
+      <Filter>소스 파일\quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\struct_ptr\ch20.c">
+      <Filter>소스 파일\struct_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\struct_ptr\ch21.c">
+      <Filter>소스 파일\struct_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\struct_ptr\ch22.c">
+      <Filter>소스 파일\struct_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\C_study\struct_ptr\ch23.c">
+      <Filter>소스 파일\struct_ptr</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
